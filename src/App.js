@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Slidern from "./components/Slider"
+import Topheader from "./components/Topheader"
+import Header from "./components/Header"
+import HomeSlider from "./components/HomeSlider"
+import SectionTitle from "./components/SectionTitle"
+import Slider2 from "./components/Slider2"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Topheader />
+      <Header />
+      <HomeSlider />
+      <SectionTitle section_title_name="Flash" />
+      <Slidern />
+      <SectionTitle section_title_name="Top Categories" />
+      <Slider2 />
+    </>
+  )
 }
 
-export default App;
+export default App
