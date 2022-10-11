@@ -282,9 +282,49 @@ h1 {
   color: rgb(233, 69, 96) !important;
 }
 
+footer {
+  background-color: rgb(15, 52, 96);
+}
+footer .footer-inner-main {
+  padding: 50px 0px;
+}
+footer li {
+  list-style-type: none;
+  font-size: 14px;
+  color: rgb(174, 180, 190);
+  text-align: justify;
+}
+footer .header-title {
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+footer ul li {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: rgb(174, 180, 190);
+}
+footer ul li a {
+  text-decoration: none;
+  color: rgb(174, 180, 190);
+}
+footer ul li a:hover {
+  color: #fff;
+}
+footer ul li:hover {
+  color: #fff;
+}
+
 @media (max-width: 992px) {
   .slide-main-r img {
     width: 230px;
+  }
+  .header-title {
+    padding-top: 25px;
   }
 }
 @media (max-width: 576px) {

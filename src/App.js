@@ -5,6 +5,8 @@ import Header from "./components/Header"
 import HomeSlider from "./components/HomeSlider"
 import SectionTitle from "./components/SectionTitle"
 import Slider2 from "./components/Slider2"
+import Car from "./components/Car"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
       <Slidern />
       <SectionTitle section_title_name="Top Categories" />
       <Slider2 />
+      <SectionTitle section_title_name="Cars" />
+      <Car />
+      <Footer />
     </>
   )
 }

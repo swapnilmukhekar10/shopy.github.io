@@ -53,7 +53,7 @@ function Slider2() {
           </div>
           <div className="container">
             <Card
-              img="img/headphones.webp"
+              img="img/watchs.webp"
               prize="$250.00"
               mainPrize="$350.00"
               offer="50%"
@@ -62,7 +62,7 @@ function Slider2() {
 
           <div className="container">
             <Card
-              img="img/headphones.webp"
+              img="img/glasses.webp"
               prize="$250.00"
               mainPrize="$350.00"
               offer="50%"
